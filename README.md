@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Django Configuração de Projeto Padrão (Simples)
 
 Essa configuração simples de projeto django que utilizo para fazer testes e criar aplicações locais.
@@ -260,3 +261,6 @@ Esse é link do Vídeo Tutorial [Link](https://www.youtube.com/watch?v=0y5YdiK7x
     ```
 
 </details>
+=======
+# aluguel_imoveis
+>>>>>>> 0950a4f17bce041791177866806a30e17b049f53
