@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
 body {
     background-color: #fff;
 }
@@ -6,6 +8,8 @@ body {
     flex-wrap: wrap;
     align-items: stretch;
 }
+
+
  
 .card-item {
     flex: 0 0 25rem;
@@ -17,4 +21,21 @@ body {
 
 .card-image {
     border-radius: 10px;
+}
+
+.custom-navbar {
+    background-color:black;
+    max-height: 300px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family:'Poppins', sans-serif;
+}
+
+.footer-link:hover {
+    color: #ffcc00; /* Cor amarela ao passar o mouse, por exemplo */
+    text-decoration: underline;
 }
