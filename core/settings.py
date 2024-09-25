@@ -27,7 +27,6 @@ SECRET_KEY = 'django-insecure-6+hu2r%xgg4tt75r_c3d_b@ri8#7_3t47#y4b++seht=8$x_r6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['.vercel.app']
 ALLOWED_HOSTS = ['.vercel.app']
 
 
@@ -119,20 +118,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
-STATIC_URL = 'static/' 
+STATIC_URL = '/static/' 
 
-# MEDIA_ROOT=os.path.join(BASE_DIR,'media')
-# MEDIA_URL = '/media/'
-
-
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'alugel_imoveis/static')
-]
-
-
+MEDIA_ROOT=os.path.join(BASE_DIR,'media')
+MEDIA_URL = '/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
