@@ -1,13 +1,13 @@
 {
     "builds": [{
-        "src": "aluguel_imoveis/core/wsgi.py",
+        "src": "myapp/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.11.5" }
     }],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "alugual_imoveis/core/wsgi.py"
+            "dest": "myapp/wsgi.py"
         }
     ]
 }
