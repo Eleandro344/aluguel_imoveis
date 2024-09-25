@@ -19,3 +19,4 @@ class ImmobileAdmin(admin.ModelAdmin):
     inlines = [ImmobileImageInlineAdmin]
 
 admin.site.register(models.Immobile, ImmobileAdmin)
+admin.site.register(models.Banner)

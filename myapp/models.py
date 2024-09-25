@@ -65,3 +65,11 @@ class RegisterLocation(models.Model):
         verbose_name = 'Registrar Locação'
         verbose_name_plural = 'Registrar Locação'
         ordering = ['-id']        
+# models.py
+
+
+class Banner(models.Model):
+    imagem = models.ImageField(upload_to='imagens/banners/', null=True, blank=True)
+    
+    def __str__(self):
+        return f'Banner {self.id}'
